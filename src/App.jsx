@@ -2,7 +2,7 @@ import {useState} from "react";
 
 function App() {
     const [todoList, setTodoList] = useState([]);
-    const [todoValue, srtTodoValue] = useState("")
+    const [todoValue, srtTodoValue] = useState("");
 
     // 사용자가 input에 입력한 값을, 버튼을 눌렀을 때 todoList에 기록하는 "기능" => 버튼에 onClick 만들어야 되네?
     // setTodoList를 통해 원래 있던 배열에 사용자가 입력한 값을 추가해서 덮어쓰기를 해야함
