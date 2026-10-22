@@ -6,8 +6,8 @@ function App() {
     return (
         <div>
             현재 Count : {count}
-            <button onClick={() => setCount(count + 1 )}>+</button>
-            <button onClick={() => setCount(count - 1 )}>-</button>
+            <button onClick={() => setCount(count + 1)}>+</button>
+            <button onClick={() => setCount(count - 1)}>-</button>
         </div>
     );
 }
